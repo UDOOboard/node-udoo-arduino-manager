@@ -1,0 +1,20 @@
+{
+  "name": "udoo-arduino-manager",
+  "version": "1.0.0",
+  "description": "Node.js lib for managing Arduino",
+  "main": "index.js",
+  "scripts": {
+    "test": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/UDOOboard/node-udoo-arduino-manager"
+  },
+  "keywords": [
+    "UDOO",
+    "ARDUINO"
+  ],
+  "author": "udooboard",
+  "license": "",
+  "readmeFilename": "README.md"
+}
