@@ -16,5 +16,9 @@
   ],
   "author": "udooboard",
   "license": "",
-  "readmeFilename": "README.md"
+  "readmeFilename": "README.md",
+  "dependencies": {
+    "function-queue": "0.0.12",
+    "serialport": "^4.0.7"
+  }
 }
