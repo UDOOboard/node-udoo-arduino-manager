@@ -1,4 +1,4 @@
-var Arduino = require('./lib/');
+var Arduino = require('./lib/udoo-arduino-manager');
 
 var arduino = new Arduino('ttyACM1');
 
