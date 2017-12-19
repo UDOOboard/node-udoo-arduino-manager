@@ -1,6 +1,6 @@
 {
   "name": "udoo-arduino-manager",
-  "version": "1.9.0",
+  "version": "1.9.1",
   "description": "Node.js lib for managing Arduino",
   "main": "index.js",
   "scripts": {
