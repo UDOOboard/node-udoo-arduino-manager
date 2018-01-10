@@ -79,7 +79,7 @@ async.series([
 
     (done) => {
         LOG.W('I2C sensors scanner');
-        arduino.scanI2Csensors();
+        arduino.scanI2CSensors();
         setTimeout(done, 3000);
     }, 
 
