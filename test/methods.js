@@ -2,6 +2,7 @@ var Arduino = require('../lib/udoo-arduino-manager');
 var arduino = new Arduino('ttyACM0');
 var async = require('async');
 var LOG = require('../lib/udoo-arduino-manager/logger');
+LOG.__debugLevel = 4;
 
 async.series([
     (done) => {
