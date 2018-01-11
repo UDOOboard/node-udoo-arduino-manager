@@ -76,14 +76,8 @@ async.series([
         LOG.W('Interrupt (detach)');
         arduino.detachInterrupt(5);
         setTimeout(done, 100);
-    }, 
-
-    (done) => {
-        LOG.W('I2C sensors scanner');
-        arduino.scanI2CSensors();
-        setTimeout(done, 3000);
-    }, 
-
+    }
+    
 ], function() {
     arduino.closePort();
 });
